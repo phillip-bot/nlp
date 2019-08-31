@@ -1,0 +1,27 @@
+{
+  "name": "nlp",
+  "version": "1.0.0",
+  "description": "A library to generate regular expressions from a map of examples.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^2.2.8",
+    "bluebird": "^3.5.5",
+    "eslint": "^6.2.2",
+    "eslint-config-xo": "^0.26.0",
+    "koa": "^2.8.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Greg Chan",
+  "license": "ISC"
+}
